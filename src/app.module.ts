@@ -3,9 +3,10 @@ import { PrismaService } from './prisma.service';
 import { UsersModule } from './users/users.module';
 import { AuthModule } from './auth/auth.module';
 import { ProfilesService } from './profiles/profiles.service';
+import { UploadModule } from './upload/upload.module';
 
 @Module({
-  imports: [UsersModule, AuthModule],
+  imports: [UsersModule, AuthModule, UploadModule],
   controllers: [],
   providers: [PrismaService, ProfilesService],
 })
