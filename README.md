@@ -1,7 +1,3 @@
-# Nest Boilerplate
+# Nest Project : File Upload
 
-This is my custom boilerplate repository which uses following modules
-- Prisma
-  - For database
-- Passport
-  - For authentication
+This is an exercise repository that implements upload, download endpoints
